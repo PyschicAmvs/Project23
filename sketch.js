@@ -52,6 +52,9 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   packageSprite.collide(rec3);
+  rec1.shapeColor = "red";
+  rec2.shapeColor = "red";
+  rec3.shapeColor = "red";
   drawSprites();
   
 }
